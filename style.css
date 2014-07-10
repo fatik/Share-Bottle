@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    background: #821520;
+    font-family: Open Sans;
+}
+
+
+#subscribe {
+    width: 200px;
+    margin: 70px auto 0;
+}
+
+#subscribe input[type="text"], #subscribe input[type="submit"] {
+    font-family: Open Sans;
+    font-size: 14px;
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#subscribe input[type="text"] {
+    background: white;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#subscribe input[type="text"]:focus {
+    outline: none;
+}
+
+#subscribe input[type="submit"] {
+    background: #B81321;
+    color: white;
+    cursor: pointer;
+}
+
+#subscribe input[type="submit"]:hover {
+    background: #A10E20;
+}
+
+#subscribe input[type="submit"]:active {
+    background: #A10E20;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate(300px, 0);
+    -moz-transform: translate(300px, 0);
+    -ms-transform: translate(300px, 0);
+    -o-transform: translate(300px, 0);
+    transform: translate(300px, 0);
+    opacity: 0;
+}
+.txt{
+color:#c97474;
+
+}
+
+
+a{
+     background-color: #A10E20;
+      text-decoration: none;
+    color: #e0dddd;
+}
+
